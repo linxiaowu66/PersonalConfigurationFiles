@@ -38,11 +38,18 @@ sudo ln -s /usr/bin/nodejs /usr/bin/node
 echo "Installing NRM (globally)"
 sudo npm install -g nrm
 
+echo "Swith the npm repository to taobao mirror"
+sudo nrm use cnpm
+
 echo "Installing Gulp (globally)"
 sudo npm install -g gulp
 
 echo "Installing SailsJs (globally)"
 sudo npm install -g sails
+
+echo "Upgrade nodejs to newest stable version"
+sudo npm install -g n
+sudo n stable
 
 echo "Setting up gitconfig and bash_profile files"
 git clone https://github.com/linxiaowu66/PersonalConfigurationFiles.git
@@ -52,6 +59,10 @@ cp PersonalConfigurationFiles/.gitconfig .gitconfig
 
 source .bash_profile
 # rm -R dotfiles/
+
+echo "Cleaning the packages"
+sudo apt-get clean
+sudo rm -rf /var/lib/apt/lists/*
 
 echo "It's all done sweetheart, enjoy! ^.^"
 exit
