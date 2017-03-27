@@ -22,7 +22,7 @@ source $ZSH/oh-my-zsh.sh
 
 # User configuration
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
-# export MANPATH="/usr/local/man:$MANPATH"
+#export MANPATH="/usr/local/man:$MANPATH"
 #export MANPATH="/root/.nvm/versions/node/v6.4.0/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"
 #export NVM_BIN="/root/.nvm/versions/node/v6.4.0/bin"
 #export NVM_CD_FLAGS=""
