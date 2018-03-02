@@ -10,3 +10,7 @@ Host 192.168.1.66
 HostName 192.168.1.66
 PreferredAuthentications publickey
 IdentityFile ~/.ssh/id_rsa
+Host 192.168.1.201
+HostName 192.168.1.201
+PreferredAuthentications publickey
+IdentityFile ~/.ssh/id_rsa_jumpserver
