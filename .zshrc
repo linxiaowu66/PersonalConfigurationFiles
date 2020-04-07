@@ -2,7 +2,7 @@
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
 # Path to your oh-my-zsh installation.
-  export ZSH=/root/.oh-my-zsh
+  export ZSH=$HOME/.oh-my-zsh
 
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
@@ -23,13 +23,13 @@ source $ZSH/oh-my-zsh.sh
 # User configuration
 export PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 #export MANPATH="/usr/local/man:$MANPATH"
-#export MANPATH="/root/.nvm/versions/node/v6.4.0/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"
-#export NVM_BIN="/root/.nvm/versions/node/v6.4.0/bin"
+#export MANPATH="$HOME/.nvm/versions/node/v6.4.0/share/man:/usr/local/man:/usr/local/share/man:/usr/share/man"
+#export NVM_BIN="$HOME/.nvm/versions/node/v6.4.0/bin"
 #export NVM_CD_FLAGS=""
-#export NVM_DIR="/root/.nvm"
+#export NVM_DIR="$HOME/.nvm"
 #export NVM_IOJS_ORG_MIRROR="https://iojs.org/dist"
 #export NVM_NODEJS_ORG_MIRROR="https://nodejs.org/dist"
-#export NVM_PATH="/root/.nvm/versions/node/v6.4.0/lib/node"
+#export NVM_PATH="$HOME/.nvm/versions/node/v6.4.0/lib/node"
 
 # Set personal aliases, overriding those provided by oh-my-zsh libs,
 # plugins, and themes. Aliases can be placed here, though oh-my-zsh
